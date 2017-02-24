@@ -1,0 +1,8 @@
+
+<!--index.wxml-->
+<view class="container">
+  <view bindtap="bindViewTap" class="userinfo">
+    <text class="user-motto">点我发送通知</text>
+    <text class="userinfo-nickname">{{motto}}</text>
+  </view>
+</view>

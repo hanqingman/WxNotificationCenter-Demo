@@ -1,0 +1,9 @@
+
+<!--index.wxml-->
+<view class="container">
+  <view bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="user-motto">点我进入B页面</text>
+  </view>
+  <text class="userinfo-nickname">{{motto}}</text>
+</view>
